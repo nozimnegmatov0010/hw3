@@ -105,6 +105,16 @@ position: absolute;
 top: 1050px;
 right: 170px;
 }
+.m7 {
+    display: flex;
+    gap: 5px;
+}
+.m5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
 
 
 
@@ -146,6 +156,20 @@ align-items: center;
     left: 10px;
     width: 90%;
 }
+.m5 {
+    flex-direction: column;
+    margin-top: 500px;
+    width: 100%;
+}
+.m6 {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.m8 {
+    width: 50%;
+}
+
 
 
 }
