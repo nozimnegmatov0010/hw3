@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.df1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+.tx{
+    display: flex;
+gap: 20px;
+}
+.tx1{
+    display: flex;
+gap: 20px;
+}
+.df2{
+    display: flex;
+    margin: 30px;
+align-items: center;
+justify-content: space-between;
+}
+.but1{
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    border: navajowhite;
+}
+.df3{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.p1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+.p2 {
+    display: flex;
+    gap: 80px;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    
+}
+.p3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.p4 {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: orangered;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+        margin-top: 50px;
+
+}
+.p10 {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: orangered;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+        
+
+}
+.p7 {
+    display: flex;
+   align-items: center;
+   gap: 20px;
+}
+.p8 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.m1 {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+.m2 {
+    display: flex;
+    gap: 15px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.m3 {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid grey;
+position: absolute;
+top: 1050px;
+right: 170px;
+}
+
+
+
+
+
+@media (max-width: 510px) {
+    .tx {
+        display: none;
+    }
+    .p5 {
+        display: none;
+    }
+    .df1 {
+        justify-content: space-between;
+        margin: 20px;
+align-items: center;   
+ }
+.p6 {
+    display: none;
+}
+.p3 {
+    flex-direction: column;
+}
+.p1 {
+    flex-direction: column;
+}
+.m4 {
+    display: none;
+}
+.m2 {
+    flex-direction: column;
+    margin-left: 10px;
+}
+.m1 {
+    width: 90%;
+}
+.m3 {
+    top: 2500px;
+    left: 10px;
+    width: 90%;
+}
+
+
+}
